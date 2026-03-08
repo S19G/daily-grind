@@ -9,7 +9,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icon-192.png', 'icon-512.png'],
       manifest: {
-        name: 'Daily Grind',
+        name: 'Shaq\'s Daily Grind',
         short_name: 'Daily Grind',
         description: 'Daily fitness & faith checklist',
         theme_color: '#0a0a0a',

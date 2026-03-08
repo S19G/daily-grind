@@ -20,14 +20,14 @@ const BIBLE_VERSES = [
 
 const DEFAULT_ITEMS = [
   { id: "1", label: "Pray", emoji: "🙏", type: "daily" },
-  { id: "2", label: "200 Crunches", emoji: "💪", type: "daily" },
-  { id: "3", label: "200 Pushups", emoji: "🔥", type: "daily" },
-  { id: "4", label: "3 Min Plank", emoji: "🧱", type: "daily" },
-  { id: "5", label: "50 Squats", emoji: "🦵", type: "daily" },
-  { id: "6", label: "50 Toe Raises", emoji: "🦶", type: "daily" },
-  { id: "7", label: "1 Mile Run", emoji: "🏃", type: "daily" },
-  { id: "8", label: "15 Pull-ups", emoji: "🏋️", type: "daily" },
   { id: "9", label: "Read Bible", emoji: "📖", type: "daily" },
+  { id: "7", label: "Run x1 Mile", emoji: "🏃", type: "daily" },
+  { id: "8", label: "Pull-ups x15", emoji: "🏋️", type: "daily" },
+  { id: "2", label: "Crunches x200", emoji: "💪", type: "daily" },
+  { id: "3", label: "Pushups x200", emoji: "🔥", type: "daily" },
+  { id: "4", label: "Plank x3 Min", emoji: "🧱", type: "daily" },
+  { id: "5", label: "Squats x50", emoji: "🦵", type: "daily" },
+  { id: "6", label: "Toe Raises x50", emoji: "🦶", type: "daily" },
   { id: "10", label: "Weigh-in", emoji: "⚖️", type: "monthly" },
 ];
 
@@ -276,7 +276,7 @@ export default function App() {
         {/* Header */}
         <div style={{ marginBottom: 32, animation: "slideUp 0.4s ease" }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 4 }}>
-            <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 700, margin: 0, color: "#fff", letterSpacing: "-0.5px" }}>Daily Grind</h1>
+            <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 700, margin: 0, color: "#fff", letterSpacing: "-0.5px" }}>Shaq's Daily Grind</h1>
             <div style={{ display: "flex", gap: 4 }}>
               {["today", "history", "edit"].map((v) => (
                 <button key={v} onClick={() => setView(v)} style={{
